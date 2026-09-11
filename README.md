@@ -13,7 +13,7 @@ Enterprise document question-answering system using Retrieval-Augmented Generati
 - Confidence threshold
 - Prompt injection guardrails
 - Department access control
-- Ollama Qwen2.5:7b
+- GENAI
 - Source citations
 - FastAPI backend
 - Streamlit frontend
@@ -33,10 +33,5 @@ User
 → Cross-Encoder
 → Confidence Check
 → Context Builder
-→ Ollama Qwen2.5:7b
+→ GENAI
 → Answer + Citation
-
-## Run Ollama
-
-```bash
-ollama run qwen2.5:7b
