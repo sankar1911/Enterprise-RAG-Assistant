@@ -21,6 +21,7 @@ def hybrid_search(query,query_embedding,chunks,index, k=10):
         distance = float(distances[0][i])
         semantic_score = ( 1 / (1 + distance))
         scores[int(idx)] = (semantic_score)
+        
     query_words = (query.lower().split())
 
     for idx, chunk in enumerate(chunks):

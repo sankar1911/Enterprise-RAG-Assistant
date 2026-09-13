@@ -2,6 +2,10 @@
 venv/
 .venv/
 __pycache__/
-.pytest_cache/
 *.pyc
-.env
+
+data/uploads/
+data/index/
+*.faiss
+
+tests
